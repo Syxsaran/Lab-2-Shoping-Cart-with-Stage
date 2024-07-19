@@ -48,10 +48,11 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Shopping Cart"),
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: Color.fromARGB(255, 0, 110, 255),
         ),
         body: Column(children: [
           Expanded(
